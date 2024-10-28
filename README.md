@@ -4,7 +4,7 @@
 
 # Hyprimage
 
-<b>Hyprimage</b> it's a Python script to get the main colors from an image and build a theme for your Hyprland configuration.
+<b>Hyprimage</b> it's a Python script to get the main colors from an image and build a theme for your Hyprland configuration. Don't try to understand the code, it's pretty trashy.
 
 # Commands
 
@@ -16,3 +16,8 @@ python hyprimage.py /path/to/your/image
 ```
 python hyprimage.py -p { number_of_palette }
 ```
+# Tutorial
+
+<p align = "center">
+  <img width="800" alt="webui" src="https://github.com/Zaque-69/Hyprdots/blob/Hyprland-generator/tutorial/tutorial.mp4">
+</p>
