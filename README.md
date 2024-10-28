@@ -16,8 +16,3 @@ python hyprimage.py /path/to/your/image
 ```
 python hyprimage.py -p { number_of_palette }
 ```
-# Tutorial
-
-<p align = "center">
-  <img width="800" alt="webui" src="https://github.com/Zaque-69/Hyprimage/blob/main/tutorial/tutorial.mp4">
-</p>
