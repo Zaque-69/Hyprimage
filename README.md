@@ -1,5 +1,5 @@
 <p align = "center">
-  <img width="300" alt="webui" src="https://github.com/Zaque-69/Hyprdots/blob/Hyprland-generator/hyprimage.png">
+  <img width="300" alt="webui" src="https://github.com/Zaque-69/Hyprimage/blob/main/hyprimage.png">
 </p>
 
 # Hyprimage
@@ -19,5 +19,5 @@ python hyprimage.py -p { number_of_palette }
 # Tutorial
 
 <p align = "center">
-  <img width="800" alt="webui" src="https://github.com/Zaque-69/Hyprdots/blob/Hyprland-generator/tutorial/tutorial.mp4">
+  <img width="800" alt="webui" src="https://github.com/Zaque-69/Hyprimage/blob/main/tutorial/tutorial.mp4">
 </p>
