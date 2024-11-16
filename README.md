@@ -1,4 +1,4 @@
-<p align = "center">
+<p align = "left">
   <img width="300" alt="webui" src="https://github.com/Zaque-69/Hyprimage/blob/main/hyprimage.png">
 </p>
 
