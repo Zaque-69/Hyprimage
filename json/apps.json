@@ -1,0 +1,14 @@
+{
+    "kitty" : {
+        "name" : "color",
+        "filename" : "kitty.conf"
+    },
+    "wlogout" : {
+        "name" : "color",
+        "filename" : "style.css"
+    },
+    "wofi" : {
+        "name" : "color",
+        "filename" : "style.css"
+    }
+}

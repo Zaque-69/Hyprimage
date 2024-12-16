@@ -1,0 +1,30 @@
+*{
+     background-image: none;
+}
+ window {
+     background-color: rgba(0, 0, 0, 0.4);
+}
+ button:hover {
+     background-color: #FCFAEE;
+}
+ #lock {
+     background-image : url("icons/lock.png");
+}
+ #logout {
+     background-image : url("icons/logout.png");
+}
+ #suspend {
+     background-image : url("icons/suspend.png");
+     border-radius : 1rem 5rem 1rem 1rem;
+}
+ #hibernate {
+     background-image : url("icons/hibernate.png");
+     border-radius : 1rem 1rem 1rem 5rem;
+}
+ #shutdown {
+     background-image : url("icons/shutdown.png");
+}
+ #reboot {
+     background-image : url("icons/reboot.png");
+}
+ 

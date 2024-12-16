@@ -1,0 +1,30 @@
+*{
+    font-family: monospace;
+}
+
+window {
+    background-color: #32302F;
+}
+
+#input {
+    margin: 5px;
+    border-bottom: 3px solid black; 
+    background-color: #545048;
+    color: white;
+}
+
+#inner-box {
+    background-color: #3C3836;
+}
+
+#text {
+    padding: 5px;
+    color: white;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: 32302F;
+    padding : 20px;
+    border : 1px solid #545048;
+}

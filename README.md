@@ -6,6 +6,8 @@
 
 <b>Hyprimage</b> it's a Python script to get the main colors from an image and build a theme for your Hyprland configuration. Don't try to understand the code, it's pretty trashy.
 
+Update 16.12.2024 : The code is still trash, now organised in functions 🤯
+
 # Commands
 
 ```
