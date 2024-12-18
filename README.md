@@ -11,10 +11,10 @@ Update 16.12.2024 : The code is still trash, now organised in functions 🤯
 # Commands
 
 ```
-python hyprimage.py /path/to/your/image
+python main.py /path/to/your/image
 ```
 - after running the previous command, a directory will be created ( local ). There will be 4 different color palettes. After have you decided what palette you like the most, you need to run the following command to change the style of your Hyprland apps, also including Kitty : 
 
 ```
-python hyprimage.py -p { number_of_palette }
+python main.py -p { number_of_palette }
 ```
