@@ -15,25 +15,25 @@ def main() :
 
             pal_name = sys.argv[2]
             
-            try : 
-                change_config(pal_name, "kitty")
-                change_config(pal_name, "wlogout")
-                change_config(pal_name, "wofi")
-
-            except KeyError as e: 
-                eprint(f"Error! The palette {e} doesn't exist!")
+            apps = ["kitty", "wlogout", "wofi"]
+            for app in apps : 
+                try : 
+                    change_config(pal_name, app)
+                except KeyError as e: 
+                    eprint(f"Error! The palette {e} doesn't exist!")
 
         case _ : 
             # Refreshing the files
             delete_file_data("json/palettes.json")
             write_file_data("json/palettes.json", "{}")
-            move_image_to_path(image_selected)
 
             shell("rm -rf palettes && mkdir palettes")
             quality_rates = [0, 5, 10, 15]
             
             for quality in quality_rates : 
-                generate_2_palettes(image_selected)
-                reduce_quality(image_selected, quality)
+                move_image_to_path(image_selected)
+                reduce_quality("output.jpg", quality)
+                generate_2_palettes("output.jpg")
+                shell("rm output.jpg")
   
             move_palettes_to_folder("palettes")

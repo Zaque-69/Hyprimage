@@ -20,7 +20,7 @@ def write_file_data(filename, text):
 
 # Moving your image to this program
 def move_image_to_path(image) : 
-    import os
+    import os 
     from src.helpers import shell
     
     shell(f"cp {image} .")

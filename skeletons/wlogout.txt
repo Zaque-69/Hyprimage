@@ -27,4 +27,3 @@
  #reboot {
      background-image : url("icons/reboot.png");
 }
- 

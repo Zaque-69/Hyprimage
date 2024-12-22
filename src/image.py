@@ -10,4 +10,4 @@ def reduce_quality(image, quality_rate) :
         cv2.imwrite(image, img, compression_params)
         
     except : 
-        eprint("Error! Can't open the image!")
+        eprint("Error! Can't open the image!") 
