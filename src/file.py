@@ -18,6 +18,24 @@ def write_file_data(filename, text):
     except FileNotFoundError : 
         pass
 
+# List with colors from a file
+def file_colors(filename) :
+    lines = [] 
+    with open(filename) as file:
+        lines = [line.rstrip() for line in file]
+
+    return lines
+
+# Returning a list from the "json/palettes.json" file to use in "change_config" function
+def colors_from_json(pal_num) : 
+    import json
+    from src.helpers import eprint
+    
+    try : 
+        return json.load(open("json/palettes.json", "r"))[pal_num]
+    except KeyError : 
+        return eprint("The palette doesn't exist!")
+
 # Moving your image to this program
 def move_image_to_path(image) : 
     import os 
