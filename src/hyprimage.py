@@ -62,7 +62,7 @@ def main() :
                 eprint("There are no more themes!")
 
             colors = file_colors(f"themes/{file}")
-            shell(f"swww img backgrounds/{file}.png")
+            shell(f"nohup swaybg -i backgrounds/{file}.png")
 
             apps = ["kitty", "wlogout", "wofi"]
             for app in apps : 
